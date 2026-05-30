@@ -10,7 +10,7 @@
 
 **A beautiful web application to extract and display EXIF metadata from photos**
 
-[Demo](#) • [Report Bug](https://github.com/fidss/app-photo/issues) • [Request Feature](https://github.com/yourusername/exif-analyzer/issues)
+[Demo](#) • [Report Bug](https://github.com/Fidss/app-photo/issues) • [Request Feature](https://github.com/Fidss/app-photo/issues)
 
 </div>
 
@@ -34,4 +34,36 @@ Created with love by **Myrielle** 🎀
 - ⚡ **Fast Processing** - Serverless architecture on Vercel
 - 🔒 **Privacy First** - No photos are stored permanently
 
-### 🖼️ Screenshots
+---
+
+## 🚀 Technologies Used
+
+### Backend
+- **Flask 2.3.3** - Lightweight WSGI web framework
+- **Pillow 10.0.1** - Python Imaging Library for EXIF extraction
+- **Piexif 1.1.3** - EXIF manipulation library
+- **Werkzeug 2.3.7** - WSGI utility library
+
+### Frontend
+- **Tailwind CSS** - Utility-first CSS framework
+- **Font Awesome 6** - Icon library
+- **Vanilla JavaScript** - No additional frameworks
+
+### Deployment
+- **Vercel** - Serverless deployment platform
+
+---
+
+## 📦 Installation
+
+### Prerequisites
+
+- Python 3.9 or higher
+- pip (Python package manager)
+
+### Local Development
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/myrielle/exif-analyzer.git
+cd exif-analyzer
